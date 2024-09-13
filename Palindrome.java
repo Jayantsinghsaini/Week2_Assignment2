@@ -17,7 +17,8 @@ public class Palindrome {
                 palindrome(input, result, 0, 0);
                 System.out.println("Number of Unique Palindromes: " +( countPalindromes(result[0]) -1));
                 System.out.println("Unique Palindromes: " + result[0]);
-            } catch (Exception e) {
+            } 
+            catch (Exception e) {
                 System.out.println("Invalid input. Please try again.");
                 return;
             }
